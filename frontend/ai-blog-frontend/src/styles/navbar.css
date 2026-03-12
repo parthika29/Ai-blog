@@ -1,0 +1,41 @@
+
+ .navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+border-bottom:1px solid black;
+background:#2c2619;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:white
+}
+
+.navLinks{
+display:flex;
+align-items:center;
+gap:25px;
+
+}
+
+.navLinks span{
+cursor:pointer;
+font-size:16px;
+color: white;
+}
+
+.startBtn{
+background:rgb(243, 239, 239);
+color:rgb(15, 14, 14);
+padding:10px 20px;
+border-radius:25px;
+border:none;
+cursor:pointer;
+}
+
+.startBtn:hover{
+background:#333;
+}

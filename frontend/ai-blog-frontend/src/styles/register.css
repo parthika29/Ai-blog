@@ -1,0 +1,107 @@
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.registerWrapper{
+position:fixed;
+top:0;
+left:0;
+width:100vw;
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:#ddc7c6;
+z-index:9999;
+}
+
+/* Card */
+
+.registerCard{
+width:420px;
+background:white;
+padding:45px 35px;
+border-radius:12px;
+box-shadow:0 15px 50px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+/* Title */
+
+.registerTitle{
+font-size:32px;
+font-weight:600;
+margin-bottom:8px;
+}
+
+/* Subtitle */
+
+.registerSubtitle{
+font-size:14px;
+color:#666;
+margin-bottom:25px;
+}
+
+/* Form */
+
+.registerForm{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+/* Inputs */
+
+.registerInput{
+width:100%;
+padding:13px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:14px;
+transition:0.2s;
+}
+
+.registerInput:focus{
+outline:none;
+border-color:black;
+}
+
+/* Button */
+
+.registerBtn{
+margin-top:5px;
+padding:13px;
+border:none;
+border-radius:25px;
+background:black;
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.registerBtn:hover{
+background:#333;
+}
+
+/* Login text */
+
+.registerLogin{
+margin-top:20px;
+font-size:14px;
+color:#666;
+}
+
+.registerLogin span{
+color:black;
+font-weight:500;
+cursor:pointer;
+}
