@@ -68,7 +68,7 @@ const BlogDetail = () => {
           <img
             // src={`http://localhost:5000/uploads/${blog.image}`}
             // alt="blog"
-            src={`http://localhost:5000/${blog.image}`}
+            src={`https://ai-blog-1-rsz9.onrender.com/${blog.image}`}
             alt={blog.title}
             className="blogCover"
           />

@@ -4,7 +4,7 @@ export const generateBlog = (data) => {
   const token = localStorage.getItem("token"); // or cookies
 
   return axios.post(
-    "http://localhost:5000/api/ai/generate",
+    "https://ai-blog-1-rsz9.onrender.com/api/ai/generate",
     data,
     {
       headers: {

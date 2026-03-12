@@ -10,8 +10,8 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const blogsRes = await axios.get("http://localhost:5000/api/admin/blogs", config);
-      const usersRes = await axios.get("http://localhost:5000/api/admin/users", config);
+      const blogsRes = await axios.get("https://ai-blog-1-rsz9.onrender.com/api/admin/blogs", config);
+      const usersRes = await axios.get("https://ai-blog-1-rsz9.onrender.com/api/admin/users", config);
       setBlogs(blogsRes.data);
       setUsers(usersRes.data);
     };
@@ -19,7 +19,7 @@ const AdminDashboard = () => {
   }, []);
 
   const updateStatus = async (id, status) => {
-    await axios.put(`http://localhost:5000/api/admin/blogs/${id}`, { status }, config);
+    await axios.put(`https://ai-blog-1-rsz9.onrender.com/api/admin/blogs/${id}`, { status }, config);
     setBlogs(blogs.map(b => b._id === id ? {...b, status} : b));
   };
 

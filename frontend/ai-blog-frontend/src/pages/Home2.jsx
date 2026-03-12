@@ -341,7 +341,7 @@ return ( <div className="home2Container">
 
   {blog.image && (
     <img
-      src={`http://localhost:5000/${blog.image}`}
+      src={`https://ai-blog-1-rsz9.onrender.com/${blog.image}`}
       alt={blog.title}
       className="blogThumbnail"
     />
