@@ -13,7 +13,7 @@ function Navbar() {
 
       <div className="navLinks">
 
-        <span onClick={() => navigate("/register")}>Our story</span>
+        <span onClick={() => navigate("/ourstory")}>Our story</span>
 
         <span onClick={() => navigate("/register")}>Write</span>
 
