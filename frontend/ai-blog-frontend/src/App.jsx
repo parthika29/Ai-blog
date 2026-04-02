@@ -33,6 +33,7 @@ function App() {
               <CreateBlog />
             </ProtectedRoute>
           } />
+          <Route path='/ourstory' element={<Mystory/>}/>
           <Route path='/write' element={<CreateBlog/>}/>
       
           <Route path="/blog/:id" element={<BlogDetail />} />
