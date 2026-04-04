@@ -11,6 +11,8 @@ import CreateBlog from "./pages/CreateBlog";
 import AdminDashboard from "./pages/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Mystory from "./pages/Mystory.jsx";
+import DemoBlog from "./pages/DemoBlog";
+
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
       
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path='/ourstory' element={<Mystory/>}/>
+          <Route path="/demo/:id" element={<DemoBlog />} />
           <Route path="/admin/dashboard" element={
             <ProtectedRoute roles={["admin"]}>
               <AdminDashboard />
